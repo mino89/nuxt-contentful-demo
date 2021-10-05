@@ -21,3 +21,9 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
+create a file .env
+
+```
+CTF_SPACE_ID=YOUR_SPACE_ID
+CTF_CD_ACCESS_TOKEN=YOUR_ACCESS_TOKEN
+```
