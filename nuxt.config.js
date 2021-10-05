@@ -38,11 +38,13 @@ module.exports = {
       }
     }
   },
+  target: 'static',
   modules: ["@nuxtjs/dotenv", "@nuxtjs/markdownit"],
   markdownit: {
     injected: true
   },
   generate: {
+    fallback: true,
     routes: () => {
       const client = contentful.createClient({
         space: process.env.CTF_SPACE_ID,
