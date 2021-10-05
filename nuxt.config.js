@@ -39,6 +39,7 @@ module.exports = {
     }
   },
   target: 'static',
+  ssr: false,
   modules: ["@nuxtjs/dotenv", "@nuxtjs/markdownit"],
   markdownit: {
     injected: true
